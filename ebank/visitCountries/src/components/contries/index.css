@@ -1,0 +1,87 @@
+.main-container {
+  background-color: #161624;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.countries {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.countryCards {
+  overflow: 'hidden';
+}
+
+.countriesList {
+  padding: 0px;
+  margin: 20px;
+  list-style-type: none;
+  background-color: #334155;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.countryItem {
+  border: 1px solid #94a3b8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.countriesName {
+  color: #ffffff;
+}
+
+.visitButton {
+  background-color: #3b82f6;
+  border: none;
+  color: #ffffff;
+  height: 30px;
+  width: 100px;
+}
+
+.visitedButton {
+  border: none;
+  color: #ffffff;
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.visitedList {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.visitedCountriesCon {
+  color: #ffffff;
+  /* height: 300px; */
+  width: 25%;
+  background-color: #1f1f2f;
+}
+
+.img {
+  width: 100%;
+  /* height: 230px; */
+}
+
+.visitedBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.removeBtn {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.visitedNo {
+  color: #ffffff;
+  text-align: center;
+}

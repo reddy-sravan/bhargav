@@ -1,0 +1,39 @@
+.card-main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  height: 200px;
+  width: 300px;
+  margin-right: 20px;
+}
+.name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.genre {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.right {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+button {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+}

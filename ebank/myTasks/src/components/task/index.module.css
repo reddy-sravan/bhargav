@@ -1,0 +1,64 @@
+.mainContainer {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+}
+
+.left {
+  background-color: #1a171d;
+  width: 40vw;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.leftHeading {
+  padding: 10px;
+  color: #f3aa4e;
+  text-align: center;
+}
+.inputCon {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.label {
+  color: #ffffff;
+  font-size: large;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.input {
+  height: 40px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #f3aa4e;
+  height: 35px;
+  min-width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.addBtn {
+  text-align: center;
+}
+
+.tagHead {
+  text-align: left;
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 20px 0px 0px 20px;
+}
+
+.right {
+  width: 60vw;
+}
+
+.para {
+  color: #ffffff;
+  text-align: center;
+}

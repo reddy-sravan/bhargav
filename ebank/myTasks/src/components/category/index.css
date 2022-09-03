@@ -1,0 +1,34 @@
+.filterCon {
+  /* margin-left: 20px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* background-color: green; */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid yellow;
+  color: #ffffff;
+  list-style-type: none;
+  padding: 5px;
+  border-radius: 4px;
+  min-width: 100px;
+  text-align: center;
+}
+
+.btnselect {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  list-style-type: none;
+  padding: 5px;
+  border-radius: 4px;
+  min-width: 100px;
+  text-align: center;
+}
+.unset {
+  background-color: transparent;
+  border: none;
+}

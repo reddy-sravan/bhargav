@@ -1,0 +1,25 @@
+.nav-con {
+  background-color: #f1f5f9;
+  padding: 10px;
+  padding-left: 50px;
+}
+
+.courses-con {
+  padding: 50px;
+  font-family: Roboto;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  height: 100px;
+  min-width: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: green; */
+  margin: 20px;
+}
